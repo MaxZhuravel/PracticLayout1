@@ -16,16 +16,18 @@
   width: 65px;
   height: 65px;
   margin: 0 auto 21px;
-}
-.icon-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1275b9;
   border: 2px solid #1275b9;
-  background: url(../img/Tablet.png) center no-repeat;
 }
-.icon-2 {
-  background: #1275b9 url(../img/Settings.png) no-repeat center;
+.icon:hover {
+  background: #ffffff;
 }
-.icon-3 {
-  background: #1275b9 url(../img/Dashboard.png) no-repeat center;
+.icon:hover img {
+  filter: invert(36%) sepia(22%) saturate(4598%) hue-rotate(182deg)
+    brightness(89%) contrast(86%);
 }
 .title {
   font-size: 14px;
